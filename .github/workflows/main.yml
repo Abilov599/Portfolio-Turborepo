@@ -89,8 +89,8 @@ jobs:
             echo "CLIENT_DOCKER_IMAGE=${{ secrets.CLIENT_DOCKER_IMAGE }}" >> .env
             echo "SERVER_DOCKER_IMAGE=${{ secrets.SERVER_DOCKER_IMAGE }}" >> .env
             docker kill client server database && docker rm client server database
-            docker-compose rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
-            docker-compose rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
+            docker compose rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
+            docker compose rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
             docker-compose up -d
 
       - name: Docker Logout
