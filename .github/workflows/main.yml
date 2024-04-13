@@ -89,10 +89,10 @@ jobs:
             echo "POSTGRES_DB=${{ secrets.POSTGRES_DB }}" >> .env
             echo "CLIENT_DOCKER_IMAGE=${{ secrets.CLIENT_DOCKER_IMAGE }}" >> .env
             echo "SERVER_DOCKER_IMAGE=${{ secrets.SERVER_DOCKER_IMAGE }}" >> .env
-            docker-compose -f docker-compose.yml stop
-            docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
-            docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
-            docker-compose -f docker-compose.yml up -d
+            docker stack rm portfolio
+            docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }} -f
+            docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }} -f
+            docker-compose up -d
 
       - name: Docker Logout
         if: always()
