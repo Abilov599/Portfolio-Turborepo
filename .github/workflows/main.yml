@@ -89,9 +89,9 @@ jobs:
             echo "POSTGRES_DB=${{ secrets.POSTGRES_DB }}" >> .env
             echo "CLIENT_DOCKER_IMAGE=${{ secrets.CLIENT_DOCKER_IMAGE }}" >> .env
             echo "SERVER_DOCKER_IMAGE=${{ secrets.SERVER_DOCKER_IMAGE }}" >> .env
-            docker stack rm portfolio
-            docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }} -f
-            docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }} -f
+            docker kill client server database && docker rm client server database
+            docker-compose rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
+            docker-compose rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
             docker-compose up -d
 
       - name: Docker Logout
