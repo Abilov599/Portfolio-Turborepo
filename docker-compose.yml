@@ -3,9 +3,7 @@ version: "3"
 services:
   client:
     container_name: client
-    build:
-      context: .
-      dockerfile: ./apps/client/Dockerfile
+    image: ${DOCKER_USERNAME:?error}/portfolio-client:latest
     restart: always
     ports:
       - 3000:3000
@@ -14,9 +12,7 @@ services:
 
   server:
     container_name: server
-    build:
-      context: .
-      dockerfile: ./apps/server/Dockerfile
+    image: ${DOCKER_USERNAME:?error}/portfolio-server:latest
     restart: always
     ports:
       - 8000:8000
