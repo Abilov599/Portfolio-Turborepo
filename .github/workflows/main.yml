@@ -80,7 +80,6 @@ jobs:
               rm .env
             fi
             touch .env
-            echo "PORT=${{ secrets.PORT }}" >> .env
             echo "CLIENT_URL=${{ secrets.CLIENT_URL }}" >> .env
             echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> .env
             echo "PG_URL=${{ secrets.PG_URL }}" >> .env
