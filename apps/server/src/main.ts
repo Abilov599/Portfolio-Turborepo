@@ -9,7 +9,7 @@ async function bootstrap() {
   app.setGlobalPrefix('v1/api');
   app.use(cookieParser());
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
-  await app.listen(process.env.PORT);
+  await app.listen(8000);
 }
 bootstrap().catch((error) => {
   console.error('Unhandled error during bootstrap:', error);
