@@ -89,7 +89,7 @@ jobs:
             echo "CLIENT_DOCKER_IMAGE=${{ secrets.CLIENT_DOCKER_IMAGE }}" >> .env
             echo "SERVER_DOCKER_IMAGE=${{ secrets.SERVER_DOCKER_IMAGE }}" >> .env
             echo "NEXT_SHARP_PATH=/app/node_modules/sharp" >> .env
-            docker kill client server && docker rm client server
+            docker kill client server database && docker rm client server database
             docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
             docker rmi ${{ secrets.SERVER_DOCKER_IMAGE }}
             docker-compose up -d
