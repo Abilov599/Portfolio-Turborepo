@@ -76,6 +76,9 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/Portfolio/
+            if [ -f .env ]; then
+            rm .env
+            fi
             touch .env
             echo "CLIENT_URL=${{ secrets.CLIENT_URL }}" >> .env
             echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> .env
