@@ -90,7 +90,6 @@ jobs:
             docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
             docker rmi ${{ secrets.SERVER_DOCKER_IMAGE }}
             docker-compose up -d
-            cd .. && rm -rf Portfolio
 
       - name: Docker Logout
         if: always()
