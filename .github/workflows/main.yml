@@ -76,9 +76,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/Portfolio/
-            if [ -f .env ]; then
-            rm .env
-            fi
             touch .env
             echo "CLIENT_URL=${{ secrets.CLIENT_URL }}" >> .env
             echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> .env
@@ -88,11 +85,11 @@ jobs:
             echo "POSTGRES_DB=${{ secrets.POSTGRES_DB }}" >> .env
             echo "CLIENT_DOCKER_IMAGE=${{ secrets.CLIENT_DOCKER_IMAGE }}" >> .env
             echo "SERVER_DOCKER_IMAGE=${{ secrets.SERVER_DOCKER_IMAGE }}" >> .env
-            echo "NEXT_SHARP_PATH=/app/node_modules/sharp" >> .env
             docker kill client server database && docker rm client server database
             docker rmi ${{ secrets.CLIENT_DOCKER_IMAGE }}
             docker rmi ${{ secrets.SERVER_DOCKER_IMAGE }}
             docker-compose up -d
+            cd .. && rm -rf Portfolio
 
       - name: Docker Logout
         if: always()
