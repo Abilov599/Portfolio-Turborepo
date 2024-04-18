@@ -16,8 +16,8 @@ const Home: NextPage = () => {
       <SectionDivider />
       <AboutSection />
       <SectionDivider />
-      <ProjectsSection />
-      <SectionDivider />
+      {/* <ProjectsSection /> */}
+      {/* <SectionDivider /> */}
       <SkillsSection />
       <SectionDivider />
       <ExperienceSection />

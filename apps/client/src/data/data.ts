@@ -15,10 +15,10 @@ export const links = [
     name: "About",
     hash: "#about",
   },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },
+  // {
+  //   name: "Projects",
+  //   hash: "#projects",
+  // },
   {
     name: "Skills",
     hash: "#skills",
@@ -69,11 +69,7 @@ export const skillsData = [
     documentation: "https://www.typescriptlang.org/",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
   },
-  {
-    technology: "Vite",
-    documentation: "https://vitejs.dev/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
-  },
+
   {
     technology: "React",
     documentation: "https://react.dev/",
@@ -88,6 +84,11 @@ export const skillsData = [
     technology: "Redux",
     documentation: "https://redux.js.org",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+  },
+  {
+    technology: "Vite",
+    documentation: "https://vitejs.dev/",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
   },
   {
     technology: "Angular",
@@ -110,9 +111,9 @@ export const skillsData = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
   },
   {
-    technology: "GraphQL",
-    documentation: "https://graphql.org/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg",
+    technology: "NestJS",
+    documentation: "https://nestjs.com/",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
   },
   {
     technology: "C#",
@@ -120,24 +121,25 @@ export const skillsData = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
   },
   {
-    technology: "Python",
-    documentation: "https://www.python.org",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    technology: "NGINX",
+    documentation: "https://www.nginx.com/",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
   },
   {
     technology: "MongoDB",
     documentation: "https://www.mongodb.com/",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
   },
+
   {
     technology: "PostgreSQL",
     documentation: "https://www.postgresql.org/",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
   },
   {
-    technology: "NGINX",
-    documentation: "https://www.nginx.com/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
+    technology: "Docker",
+    documentation: "https://www.docker.com/",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
   },
 ];
 
