@@ -63,18 +63,13 @@ const IntroSection: FC<IntroSectionProps> = ({ ...props }) => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Jeyhun.</span> I&apos;m a{" "}
-        <span className="font-bold">Software Developer</span> with{" "}
+        <span className="font-bold">Software Engineer</span> with{" "}
         <span className="font-bold">
           {new Date().getFullYear() - 2022} years
         </span>{" "}
         of experience. I enjoy building{" "}
         <span className="italic">
-          Full-stack Web Applications with{" "}
-          <span className="underline">
-            <a href="https://nextjs.org/" target="_blank">
-              Next.js
-            </a>
-          </span>
+          Web Applications with modern technologies
         </span>
       </motion.h1>
       <motion.div
