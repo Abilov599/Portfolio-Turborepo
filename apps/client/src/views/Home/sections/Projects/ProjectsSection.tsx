@@ -1,7 +1,8 @@
 "use client";
 
 import { projectsData } from "@/data";
-import { SectionHeading, Project } from "@/components";
+import { SectionHeading } from "@/components/shared";
+import { Project } from "@/components/ui";
 import { FC, ComponentPropsWithoutRef, Fragment } from "react";
 // import { useSectionInView } from "@/hooks";
 

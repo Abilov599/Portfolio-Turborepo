@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { SectionDivider } from "@/components";
+import { SectionDivider } from "@/components/shared";
 import {
   IntroSection,
   AboutSection,

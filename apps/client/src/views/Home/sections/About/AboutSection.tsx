@@ -2,7 +2,7 @@
 
 import { FC } from "react";
 import { HTMLMotionProps, motion } from "framer-motion";
-import { SectionHeading } from "@/components";
+import { SectionHeading } from "@/components/shared";
 import { useSectionInView } from "@/hooks";
 
 interface AboutSectionProps extends HTMLMotionProps<"section"> {}
@@ -23,19 +23,13 @@ const AboutSection: FC<AboutSectionProps> = ({ ...props }) => {
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Computer Engineering</span>, I decided to
-        pursue my passion for programming. I enrolled in a coding bootcamp and
-        learned <span className="font-medium">Full Stack Web Development</span>.{" "}
+        pursue my passion for Web Development. I enrolled in a coding bootcamp
+        and learned <span className="font-medium">Full-stack Development</span>
+        <br />
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript, Prisma, PostgreSQL. I am always
-        looking to learn new technologies. <br /> I am currently learning{" "}
-        <span className="font-medium">C# (.NET) and ASP.NET</span> for building
-        large, scalable Web Applications.
+        problem-solving aspect. <br /> I <span className="underline">love</span>{" "}
+        the feeling of finally figuring out a solution to a problem. <br /> I am
+        always looking to learn new technologies.
       </p>
       <p>
         <span className="italic">When I&apos;m not coding</span>, I&apos;m often

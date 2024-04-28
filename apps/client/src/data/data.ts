@@ -35,11 +35,6 @@ export const links = [
 
 export const skillsData = [
   {
-    technology: "Git",
-    documentation: "https://git-scm.com/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
-  },
-  {
     technology: "HTML5",
     documentation: "https://www.w3.org/html/",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
@@ -69,7 +64,11 @@ export const skillsData = [
     documentation: "https://www.typescriptlang.org/",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
   },
-
+  {
+    technology: "Node.js",
+    documentation: "https://nodejs.org",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+  },
   {
     technology: "React",
     documentation: "https://react.dev/",
@@ -85,61 +84,61 @@ export const skillsData = [
     documentation: "https://redux.js.org",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
   },
-  {
-    technology: "Vite",
-    documentation: "https://vitejs.dev/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
-  },
-  {
-    technology: "Angular",
-    documentation: "https://angular.dev/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
-  },
-  {
-    technology: "Node.js",
-    documentation: "https://nodejs.org",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
-  },
-  {
-    technology: "Bun",
-    documentation: "https://bun.sh/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg",
-  },
-  {
-    technology: "Express",
-    documentation: "https://expressjs.com",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
-  },
+  // {
+  //   technology: "Vite",
+  //   documentation: "https://vitejs.dev/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+  // },
+  // {
+  //   technology: "Angular",
+  //   documentation: "https://angular.dev/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg",
+  // },
+  // {
+  //   technology: "Bun",
+  //   documentation: "https://bun.sh/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg",
+  // },
+  // {
+  //   technology: "Express",
+  //   documentation: "https://expressjs.com",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+  // },
   {
     technology: "NestJS",
     documentation: "https://nestjs.com/",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
   },
-  {
-    technology: "C#",
-    documentation: "https://www.w3schools.com/cs/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
-  },
-  {
-    technology: "NGINX",
-    documentation: "https://www.nginx.com/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
-  },
-  {
-    technology: "MongoDB",
-    documentation: "https://www.mongodb.com/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-  },
+  // {
+  //   technology: "C#",
+  //   documentation: "https://www.w3schools.com/cs/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+  // },
+  // {
+  //   technology: "NGINX",
+  //   documentation: "https://www.nginx.com/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg",
+  // },
+  // {
+  //   technology: "MongoDB",
+  //   documentation: "https://www.mongodb.com/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+  // },
 
+  // {
+  //   technology: "PostgreSQL",
+  //   documentation: "https://www.postgresql.org/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+  // },
+  // {
+  //   technology: "Docker",
+  //   documentation: "https://www.docker.com/",
+  //   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+  // },
   {
-    technology: "PostgreSQL",
-    documentation: "https://www.postgresql.org/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
-  },
-  {
-    technology: "Docker",
-    documentation: "https://www.docker.com/",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+    technology: "Git",
+    documentation: "https://git-scm.com/",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
   },
 ];
 

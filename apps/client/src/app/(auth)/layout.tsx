@@ -1,4 +1,4 @@
-import { ThemeSwitcher } from "@/components";
+import { ThemeSwitcher } from "@/components/shared";
 import { FC, ReactNode } from "react";
 
 interface AuthLayoutProps {

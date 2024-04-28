@@ -1,10 +1,11 @@
 "use client";
 
-import { SectionHeading, Skill } from "@/components";
+import { Skill } from "@/components/ui";
+import { SectionHeading } from "@/components/shared";
 import { skillsData } from "@/data";
 import { useSectionInView } from "@/hooks";
 import { motion } from "framer-motion";
-import { FC, ComponentPropsWithoutRef } from "react";
+import { ComponentPropsWithoutRef, FC } from "react";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -28,7 +29,7 @@ const SkillsSection: FC<SkillsSectionProps> = ({ ...props }) => {
   return (
     <section
       ref={ref}
-      className="mb-20 mt-10 max-w-6xl scroll-mt-28 text-center sm:mb-7 sm:scroll-mt-32"
+      className="mb-20 mt-10 max-w-5xl scroll-mt-28 text-center sm:mb-7 sm:scroll-mt-32"
       id="skills"
       {...props}
     >

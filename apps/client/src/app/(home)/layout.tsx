@@ -1,4 +1,4 @@
-import { ThemeSwitcher } from "@/components";
+import { ThemeSwitcher } from "@/components/shared";
 import { Header, Footer } from "@/layouts";
 
 export default function HomeLayout({

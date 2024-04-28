@@ -3,7 +3,7 @@
 import { FC } from "react";
 import { useSectionInView } from "@/hooks";
 import { motion, HTMLMotionProps } from "framer-motion";
-import { SectionHeading, SubmitButton } from "@/components";
+import { SectionHeading, SubmitButton } from "@/components/shared";
 
 interface ContactSectionProps extends HTMLMotionProps<"section"> {}
 

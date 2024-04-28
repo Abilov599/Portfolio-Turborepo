@@ -1,7 +1,7 @@
 "use client";
 
 import { FC, ComponentPropsWithoutRef, Fragment } from "react";
-import { SectionHeading } from "@/components";
+import { SectionHeading } from "@/components/shared";
 import { experiencesData } from "@/data/data";
 import {
   VerticalTimeline,
