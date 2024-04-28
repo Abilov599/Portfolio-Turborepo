@@ -8,10 +8,6 @@ const Footer: FC<FooterProps> = ({ ...props }) => {
       <small className="mb-2 block text-xs">
         &copy; {new Date().getFullYear()} Jeyhun. All rights reserved.
       </small>
-      <p className="text-xs">
-        <span className="font-semibold">About this website:</span> built with
-        Next.js, TypeScript, Tailwind CSS, Framer Motion
-      </p>
     </footer>
   );
 };
