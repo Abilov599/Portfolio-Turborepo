@@ -53,7 +53,7 @@ const IntroSection: FC<IntroSectionProps> = ({ ...props }) => {
               duration: 0.7,
             }}
           >
-            🇦🇿
+            <img src="/az.png" alt="AZ" width="48" height="48" />
           </motion.span>
         </div>
       </div>
@@ -62,15 +62,11 @@ const IntroSection: FC<IntroSectionProps> = ({ ...props }) => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Jeyhun.</span> I&apos;m a{" "}
-        <span className="font-bold">Software Engineer</span> with{" "}
-        <span className="font-bold">
-          {new Date().getFullYear() - 2022} years
-        </span>{" "}
-        of experience. I enjoy building{" "}
-        <span className="italic">
-          Web Applications with modern technologies
-        </span>
+        <span className="font-bold">Hello, I&apos;m Jeyhun.</span> <br />{" "}
+        I&apos;m a <span className="font-bold">Software Engineer,</span>
+        <br />I enjoy building
+        <br />
+        <span className="italic">Web Applications</span>
       </motion.h1>
       <motion.div
         className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"

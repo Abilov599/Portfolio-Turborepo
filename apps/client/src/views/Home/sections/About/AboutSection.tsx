@@ -21,23 +21,16 @@ const AboutSection: FC<AboutSectionProps> = ({ ...props }) => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Computer Engineering</span>, I decided to
-        pursue my passion for Web Development. I enrolled in a coding bootcamp
-        and learned <span className="font-medium">Full-stack Development</span>
-        <br />
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. <br /> I <span className="underline">love</span>{" "}
-        the feeling of finally figuring out a solution to a problem. <br /> I am
-        always looking to learn new technologies.
-      </p>
-      <p>
-        <span className="italic">When I&apos;m not coding</span>, I&apos;m often
-        found exploring new video games.
-        <br />
-        Socializing is a big part of my downtime too.
-        <br />I love catching up with friends over meals or going on adventures
-        together.
+        Software Engineer specializing in Web Development. Proficient in
+        building robust and scalable web applications, managing the full
+        development cycle from conception to deployment, while following the
+        latest industry standards. Known for rapid development, producing
+        high-quality code, and maintaining a strong enthusiasm for continuous
+        learning. Demonstrated ability to deliver projects on time with
+        meticulous attention to detail and a commitment to excellence.
+        Additionally, I have built and published my own packages on NPM (Node
+        Package Manager), showcasing my initiative and expertise in creating
+        reusable, high-quality components for the developer community.
       </p>
     </motion.section>
   );
